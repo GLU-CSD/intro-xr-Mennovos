@@ -90,7 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  healthbarFill: {fileID: 0}
 --- !u!1 &3733887621141127961
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 295191921967531879}
   - component: {fileID: 972638072014493536}
+  - component: {fileID: 8597914525673832403}
   m_Layer: 0
   m_Name: Enemybase
   m_TagString: Untagged
@@ -326,6 +326,27 @@ CapsuleCollider:
   m_Height: 4
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
+--- !u!95 &8597914525673832403
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101537289420238206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 583ce2e8249a2874cb2d6bd12194b31c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &3576785014155332162
 PrefabInstance:
   m_ObjectHideFlags: 0
