@@ -7,14 +7,13 @@ public class Health : MonoBehaviour
 {
     public float maxHealth = 100f;
     public float currentHealth;
-    Image healthbarFill;
+    public Image healthbarFill;
     void UpdateHealthBar()
     {
         healthbarFill.fillAmount = currentHealth / maxHealth;
     }
     void Start()
     {
-        healthbarFill = GetComponent<Image>();
         currentHealth = maxHealth;
         UpdateHealthBar();
     }
